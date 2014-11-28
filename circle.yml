@@ -2,6 +2,6 @@ machine:
   python:
     version: 3.4.2
 
-override:
-  test:
+test:
+  override:
     - nosetests
