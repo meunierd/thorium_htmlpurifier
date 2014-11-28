@@ -12,8 +12,10 @@ setup(
     author_email='devon@eventmobi.com',
     url='https://github.com/meunierd/thorium_htmlpurifier/',
     install_requires=[
-        'thorium',
+        'coverage',
         'html-purifier3>=2.1.0',
+        'nose',
+        'thorium',
     ],
     test_suite='nose.collector',
 )
