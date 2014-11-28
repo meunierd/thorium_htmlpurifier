@@ -11,6 +11,7 @@ setup(
     author='Devon Meunier',
     author_email='devon@eventmobi.com',
     url='https://github.com/meunierd/thorium_htmlpurifier/',
+    zip_safe=False,
     install_requires=[
         'coverage',
         'html-purifier3>=2.1.0',
